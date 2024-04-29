@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "RecipeEngine.Modules.Wrench >= 0.7.16"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jhw03\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jhw03\\temp\\heat_detection\\Library\\PackageCache\\com.unity.xr.core-utils@2.3.0\\tools~\\CI\\wrench.csproj",
+      "projectName": "wrench",
+      "projectPath": "C:\\Users\\jhw03\\temp\\heat_detection\\Library\\PackageCache\\com.unity.xr.core-utils@2.3.0\\tools~\\CI\\wrench.csproj",
+      "packagesPath": "C:\\Users\\jhw03\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jhw03\\temp\\heat_detection\\Library\\PackageCache\\com.unity.xr.core-utils@2.3.0\\tools~\\CI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jhw03\\temp\\heat_detection\\Library\\PackageCache\\com.unity.xr.core-utils@2.3.0\\tools~\\CI\\NuGet.Config",
+        "C:\\Users\\jhw03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.prd.it.unity3d.com/artifactory/api/nuget/v3/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "RecipeEngine.Modules.Wrench": {
+            "target": "Package",
+            "version": "[0.7.16, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'RecipeEngine.Modules.Wrench' from remote source 'https://artifactory.prd.it.unity3d.com/artifactory/api/nuget/v3/nuget/FindPackagesById()?id='RecipeEngine.Modules.Wrench'&semVerLevel=2.0.0'.",
+      "libraryId": "RecipeEngine.Modules.Wrench"
+    }
+  ]
+}
